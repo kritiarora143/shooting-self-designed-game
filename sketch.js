@@ -121,18 +121,18 @@ function shootBullet(){
   bulletGroup.add(bullet)
 }
 
-// function handleBubbleCollision(bubbleGroup){
-//     if (life > 0) {
-//        score=score+1;
-//     }
+function handleBubbleCollision(bubbleGroup){
+    if (life > 0) {
+       score=score+1;
+    }
 
-//     blast= createSprite(bullet.x+60, bullet.y, 50,50);
-//     blast.addImage(blastImg)
-//     blast.scale=0.3
-//     blast.life=20
-//     bulletGroup.destroyEach()
-//     bubbleGroup.destroyEach()
-// }
+    blast= createSprite(bullet.x+60, bullet.y, 50,50);
+    blast.addImage(blastImg)
+    blast.scale=0.3
+    blast.life=20
+    bulletGroup.destroyEach()
+    bubbleGroup.destroyEach()
+}
 
 function handleGameover(bubbleGroup){
   
