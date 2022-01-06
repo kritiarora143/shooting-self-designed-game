@@ -12,7 +12,7 @@ var gameState=1
 
 function preload(){
   gunImg = loadImage("gun1.png")
-  //blastImg = loadImage("blast.png")
+  blastImg = loadImage("blast.png")
   bulletImg = loadImage("bullet1.png")
   blueBubbleImg = loadImage("waterBubble.png")
   redBubbleImg = loadImage("redbubble.png")
